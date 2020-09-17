@@ -14,7 +14,7 @@
 			<h1>Alumni</h1>
 		</div>
 		<div class="button">
-			<a class="btn" href="login.php">Alumni From</a>
+			<a class="btn" href="./login.php">Alumni From</a>
 		</div>
 	</header>
 </body>
