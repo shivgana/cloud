@@ -25,7 +25,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         exit;
     } else{
         $email = trim($_POST["email"]);
-        if (!eregi("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$",$email) ) {
+        if (preg_match("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$",$email) ) {
             $email_err = "Your email is Invalid";
             header("location: login.php?message=<div class='alert'>Please ,Enter proper Email Id</div>");
             exit;
