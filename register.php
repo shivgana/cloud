@@ -312,7 +312,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     <input type="submit"  value=" Submit " style="font-size:15pt;color:white;background-color:green;border:2px solid #336606;padding:3px">
     			</div>
     			
-                <p style="text-align:center;padding-bottom: 30px">Already have an account? <a href="login.php">Login here</a>. </p>
+                <p style="text-align:center;padding-bottom: 30px; color: black">Already have an account? <a href="login.php">Login here</a>. </p>
             </form>
             <script type="text/javascript">
                 $(function(){
