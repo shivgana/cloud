@@ -200,7 +200,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     <input type="password" name="password" class="form-control" >
                 </div>
                 <input type="submit" value="Sign In" class="btn">
-                <p class="text-p">Don't have an account? <a href="register.php">Sign Up</a></p>
+                <p class="text-p" style="color: black">Don't have an account? <a href="register.php">Sign Up</a></p>
             </form>     
             <script type="text/javascript">
                 $(function(){
